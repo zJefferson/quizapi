@@ -7,7 +7,8 @@ app = Flask(__name__)
 quiz_data = [
     {"id": 1, "pergunta": "Qual a capital do Brasil?", "opcoes": ["São Paulo", "Brasília", "Rio de Janeiro"], "resposta": "Brasília"},
     {"id": 2, "pergunta": "Quanto é 2 + 2?", "opcoes": ["3", "4", "5"], "resposta": "4"},
-    {"id": 3, "pergunta": "Qual linguagem usamos com Flet?", "opcoes": ["Java", "Python", "C++"], "resposta": "Python"}
+    {"id": 3, "pergunta": "Qual linguagem usamos com Flet?", "opcoes": ["Java", "Python", "C++"], "resposta": "Python"},
+    {"id": 4, "pergunta": "teste", "opcoes": ["teste1", "Python", "C++"], "resposta": "teste1"}
 ]
 
 @app.route("/perguntas", methods=["GET"])
